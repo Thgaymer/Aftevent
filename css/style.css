@@ -1,0 +1,202 @@
+/* styles.css */
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #f7d40a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline block;
+    margin: 0 40px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #003cff; /* Altere para a cor desejada */
+  }
+  
+  /* Estilos para o menu responsivo */
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  /* Estilos para o menu de navegação responsivo */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #666;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    #menu-toggle:checked ~ ul {
+      display: flex;
+    }
+  }
+  
+  /* Estilos para a seção do herói */
+  .hero {
+    background-image: url('AF EVENTOS.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 210px 0;
+    text-align: center;
+    color: #eb1010d6;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* about.html*/
+
+  .pagina{
+    color: #333;
+    font-style: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+
+  img{
+    width: 1000px;
+    margin: 10px;
+  }
+
+  .pagina img{
+    width: 700px;
+    float: left;
+  }
+
+  .pagina h1{
+    margin: 20px;
+    color: #ffd000;
+  }
+
+  .pagina h2{
+    margin: 20px;
+    
+  }
+
+  .pagina p{
+    margin: 20px;
+  }
+
+p{
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .pagina img{
+    width: 50x;
+
+  }
+ }
+  
+    
+         /* services.html*/
+    
+   .nova-pagina{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   }      
+
+   .nova-pagina img{
+    width: 360px;
+    margin: 50px;
+    display: block;
+    margin-bottom: 5px;
+   }  
+   
+   .nova-pagina h1{
+    margin: 0px;
+    
+   }
+
+     /* contact.html*/
+
+     .imagem img{
+      width: 500px;
+     }
+
+     @media (max-width: 768px) {
+      .imagem img{
+        width: 400px;
+
+      }
+     }
+      
+        
+      
+    
+ 
+  
+  
+  
